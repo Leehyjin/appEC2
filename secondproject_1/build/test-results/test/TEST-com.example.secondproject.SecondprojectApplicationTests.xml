@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.secondproject.SecondprojectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-20T05:51:13" hostname="DESKTOP-P8M0IIV" time="1.439">
+  <properties/>
+  <testcase name="네이버 이미지 검색 OpenAPI 테스트" classname="com.example.secondproject.SecondprojectApplicationTests" time="1.439"/>
+  <system-out><![CDATA[14:51:08.948 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.secondproject.SecondprojectApplicationTests]: SecondprojectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:51:09.116 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.secondproject.SecondprojectApplication for test class com.example.secondproject.SecondprojectApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-20T14:51:09.741+09:00  INFO 12636 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : Starting SecondprojectApplicationTests using Java 21.0.2 with PID 12636 (started by User in C:\Users\User\Desktop\secondproject_1)
+2025-03-20T14:51:09.743+09:00  INFO 12636 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T14:51:10.574+09:00  INFO 12636 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-20T14:51:10.611+09:00  INFO 12636 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2025-03-20T14:51:11.133+09:00  INFO 12636 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-20T14:51:11.272+09:00  INFO 12636 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@320be73
+2025-03-20T14:51:11.276+09:00  INFO 12636 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-20T14:51:11.370+09:00  INFO 12636 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-20T14:51:11.454+09:00  INFO 12636 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-20T14:51:11.517+09:00  INFO 12636 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-20T14:51:11.960+09:00  INFO 12636 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-20T14:51:12.066+09:00  INFO 12636 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.5.15
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-20T14:51:12.455+09:00  INFO 12636 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-20T14:51:12.462+09:00  INFO 12636 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T14:51:12.658+09:00  WARN 12636 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-20T14:51:13.243+09:00  INFO 12636 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : Started SecondprojectApplicationTests in 3.918 seconds (process running for 5.574)
+이미지검색 응답값: SearchImageResponseDto(lastBuildDate=Thu, 20 Mar 2025 14:51:14 +0900, total=8366637, start=1, display=10, items=[SearchImageResponseDto.SearchImageItem(title=우산 - 무료 여행개 아이콘 아티스트가 디자인한 우산 종의 무료 아이콘, link=https://cdn-icons-png.flaticon.com/512/4490/4490065.png, thumbnail=https://search.pstatic.net/sunny/?type=b150&src=https://cdn-icons-png.flaticon.com/512/4490/4490065.png, sizeheight=512, sizewidth=512), SearchImageResponseDto.SearchImageItem(title=손으로 그려진 된 컬러 우산 그림 PNG 일러스트 무료 다운로드 - Lovepik 손으로 그려진 된 컬러 우산 그림, link=https://img.lovepik.com/original_origin_pic/18/12/30/cdae069ff22f0c5f6f8c01e9a79e7f53.png_wh860.png, thumbnail=https://search.pstatic.net/sunny/?type=b150&src=https://img.lovepik.com/original_origin_pic/18/12/30/cdae069ff22f0c5f6f8c01e9a79e7f53.png_wh860.png, sizeheight=860, sizewidth=860), SearchImageResponseDto.SearchImageItem(title=제이오마켓 무지개 우산 곡손잡이, link=http://shopping.phinf.naver.net/main_5130371/51303717036.20241108233235.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=http://shopping.phinf.naver.net/main_5130371/51303717036.20241108233235.jpg, sizeheight=600, sizewidth=600), SearchImageResponseDto.SearchImageItem(title=수동 장우산 넉넉한 화사한색 무지개 우산 멋스럽게 : 늘푸른스토어마켓, link=https://shop-phinf.pstatic.net/20250215_75/1739549915043ifRfs_JPEG/23182288870429990_1060557832.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=https://shop-phinf.pstatic.net/20250215_75/1739549915043ifRfs_JPEG/23182288870429990_1060557832.jpg, sizeheight=398, sizewidth=398), SearchImageResponseDto.SearchImageItem(title=소닛 고급스러운 우산 폭넗은 파라솔 우산, link=http://shopping.phinf.naver.net/main_4999417/49994171171.20240828010221.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=http://shopping.phinf.naver.net/main_4999417/49994171171.20240828010221.jpg, sizeheight=1000, sizewidth=1000), SearchImageResponseDto.SearchImageItem(title=펄튼 펄튼 미니 인버터1 앤 차콜 우산 3단, link=http://shopping.phinf.naver.net/main_4736663/47366636451.3.20250220173725.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=http://shopping.phinf.naver.net/main_4736663/47366636451.3.20250220173725.jpg, sizeheight=900, sizewidth=900), SearchImageResponseDto.SearchImageItem(title=3 2 가벼운 투명 파스텔 장우산 우산 얇은 우산 일회용 편의점 우산 3개 투명 2개, link=http://shopping.phinf.naver.net/main_5076241/50762413252.20241009232709.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=http://shopping.phinf.naver.net/main_5076241/50762413252.20241009232709.jpg, sizeheight=621, sizewidth=621), SearchImageResponseDto.SearchImageItem(title=아쿠쉬네트코리아 타이틀리스트 25년 신상품 UV 골프우산 TA25UVU : GOLFZON MARKET, link=https://shop-phinf.pstatic.net/20250212_55/1739335655085yrnOk_JPEG/85709115020346799_724935653.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=https://shop-phinf.pstatic.net/20250212_55/1739335655085yrnOk_JPEG/85709115020346799_724935653.jpg, sizeheight=1000, sizewidth=1000), SearchImageResponseDto.SearchImageItem(title=잭니클라우스 잭니클라우스 잭니클라우스 자동 골프우산 70 솔리드 장우산, link=http://shopping.phinf.naver.net/main_5291005/52910052440.2.20250210155207.jpg, thumbnail=https://search.pstatic.net/common/?type=b150&src=http://shopping.phinf.naver.net/main_5291005/52910052440.2.20250210155207.jpg, sizeheight=1000, sizewidth=1000), SearchImageResponseDto.SearchImageItem(title=우산 PNG 이미지 | 프리미엄 사진, link=https://img.freepik.com/premium-vector/3d-realistic-render-blank-umbrella-icon-isolated-white-background-template-opened-parasols-mockup-branding-advertise-side-view-vector-illustration_341509-2951.jpg, thumbnail=https://search.pstatic.net/sunny/?type=b150&src=https://img.freepik.com/premium-vector/3d-realistic-render-blank-umbrella-icon-isolated-white-background-template-opened-parasols-mockup-branding-advertise-side-view-vector-illustration_341509-2951.jpg, sizeheight=626, sizewidth=626)])
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\User\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
