@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.secondproject.SecondprojectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-12T03:32:59" hostname="DESKTOP-Q07Q3QO" time="2.619">
+  <properties/>
+  <testcase name="네이버 지역검색 OpenAPI 테스트" classname="com.example.secondproject.SecondprojectApplicationTests" time="2.619"/>
+  <system-out><![CDATA[12:32:54.526 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.secondproject.SecondprojectApplicationTests]: SecondprojectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:32:54.851 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.secondproject.SecondprojectApplication for test class com.example.secondproject.SecondprojectApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-03-12T12:32:56.201+09:00  INFO 20916 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : Starting SecondprojectApplicationTests using Java 21.0.2 with PID 20916 (started by human-teacher1 in D:\241028-edu2\java\secondproject)
+2025-03-12T12:32:56.205+09:00  INFO 20916 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-12T12:32:59.418+09:00  INFO 20916 --- [    Test worker] c.e.s.SecondprojectApplicationTests      : Started SecondprojectApplicationTests in 4.131 seconds (process running for 7.122)
+지역검색 응답값: SearchRegionResponseDto(lastBuildDate=Wed, 12 Mar 2025 12:33:00 +0900, total=1, start=1, display=1, items=[SearchRegionResponseDto.SearchRegionItem(title=보나리베, link=https://www.instagram.com/bonalibe_cafe, category=음식점>카페,디저트, description=, telephone=, address=경기도 남양주시 별내동 719-2 보나리베, roadAddress=경기도 남양주시 불암산로39번길 9-2 보나리베, mapx=1271068229, mapy=376470405)])
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\human-teacher1\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
